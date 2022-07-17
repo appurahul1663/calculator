@@ -49,7 +49,7 @@ input{
     font-size: 30px;
     padding: 0px 0px;
     background:  rgb(101, 5, 153);
-    text-align: right;
+    text-align: center;
     color: rgba(255, 255, 255, 0.786);
     pointer-events: none;
 }
