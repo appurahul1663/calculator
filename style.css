@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    margin: 50px 30px 0px 30px;
+    overflow-x: hidden;
+    background:linear-gradient(to right, rgb(1, 55, 162), rgb(101, 5, 153));;
+}
+.div1-1{
+    background:  rgb(101, 5, 153);
+    color: white;
+    width:100%;
+    height:auto;
+    min-height: 40px;
+    cursor: pointer;
+    text-align: right;
+    padding: 0px 0px 0px 0px;
+    border-radius: 2px;
+    border: 2px solid rgba(205, 109, 109, 0.5);
+}
+#div-master{
+    display:table;
+    width: 100%;
+}
+.div2{
+    display:flex;
+    width: 100%;
+    cursor: pointer;
+    margin: 5px 0px 0px 0px;
+}
+.div2-1{
+    float: left;
+    width: 25%;
+    height: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.763);
+    margin: 0% 0.25% 0% 0.25%;
+    background: rgb(1, 55, 162);
+    border-radius: 2px;
+    border: 2px solid rgba(222, 178, 178, 0.5);
+}
+
+input{
+    width:100%;
+    height: auto;
+    min-height: 50px;
+    border: none;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 0px 0px;
+    background:  rgb(101, 5, 153);
+    text-align: right;
+    color: rgba(255, 255, 255, 0.786);
+    pointer-events: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    body{margin: 100px 10px 0px 10px;}
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    body{margin: 50px 80px 0px 80px;}
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+    body{margin: 50px 80px 0px 80px;}
+}
+@media (min-width: 1201px){
+    body{margin: 50px 400px 0px 400px;}
+}
